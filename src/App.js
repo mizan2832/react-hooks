@@ -5,14 +5,16 @@ import React,{Component} from 'react';
 // import HookCounter from './components/HookCounter';
 // import HookConterTwo from './components/HookConterTwo';
 // import HookCounterThree from './components/HookCounterThree';
-import HookCounterFour from './components/HookCounterFour';
+// import HookCounterFour from './components/HookCounterFour';
+import HookCounterOne from './components/useEffect/HookCounterOne';
 class App extends Component{
     render(){
         return(
             <div>
                {/* <HookCounter /> */}
                {/* <HookConterTwo /> */}
-               <HookCounterFour />
+               {/* <HookCounterFour /> */}
+               <HookCounterOne />
                
             </div>
         );
